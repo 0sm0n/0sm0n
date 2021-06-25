@@ -1,0 +1,32 @@
+kbd {font-size: 0.9em;display:inline-block;line-height:1.1;}
+.wrap {
+    display: inline-block;
+    margin: 0 40px 2em 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+.div{
+    width: 170px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.seven:hover {
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+    background: #fd7e14;
+}
+
+.div {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
