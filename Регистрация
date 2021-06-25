@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <TITLE>Более сложная форма с JavaScript проверкой</TITLE>
+</HEAD> <BODY bgcolor="#FFFFFF">
+<script src="js/121.js"></script>
+<FORM name="contact_form" method="post" action="мой%20сайт.html" onsubmit="return validate_form ( );">
+    <H1>Пожалуйста введите ваши данные.</H1>
+    <P>Ваше имя: <label>
+        <INPUT type="text" name="contact_name">
+    </label></P>
+    <P>Ваш пол: <label>
+        <INPUT type="radio" name="gender" value="Male">
+    </label> Мужской <label>
+        <INPUT type="radio" name="gender" value="Female">
+    </label> Женский</P>
+    <P>Ваш возраст: <label>
+        <SELECT name="age">
+            <OPTION value="">Выберите одну из опций:</OPTION>
+            <OPTION value="0-18 years">0-18 лет</OPTION>
+            <OPTION value="18-30 years">18-30 лет</OPTION>
+            <OPTION value="30-45 years">30-45 лет</OPTION>
+            <OPTION value="45-60 years">45-60 лет</OPTION>
+            <OPTION value="60+ years">60+ лет</OPTION> </SELECT>
+    </label></P>
+    <P>вы согласны с Соглашением? <label>
+        <INPUT type="checkbox" name="terms" value="Yes">
+    </label> Да</P>
+    <P><INPUT type="submit" name="send" value="Отправить данные"></P>
+</FORM>
+</BODY>
+</html>
