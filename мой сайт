@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/32.css">
+    <link rel="stylesheet" href="css/31.css">
+    <link rel="stylesheet" href="css/30.css">
+
+    <title>Мой сайт</title>
+    <script>
+        var clicks = 0;
+        function onClick() {
+            clicks += 1;
+
+            document.getElementById("clicks").innerHTML = clicks;
+
+        }
+    </script>
+ <div class="eror">
+    <ul class="nav">
+
+        <li>
+            <a href="#">Приложения</a>
+        </li>
+
+        <li>
+            <a href="#">Сервис</a>
+        </li>
+        <li id="options">
+            <a href="#">Меню</a>
+            <ul class="subnav">
+                <li><a href="#">Настройки</a></li>
+                <li><a href="#">Приложения</a></li>
+                <li><a href="#">Сервис</a></li>
+                <li><a href="#">Разное</a></li>
+            </ul>
+        </li>
+        <li id="search">
+            <form action="" method="get">
+                <input name="search_text" id="search_text" placeholder="Поиск..." type="text">
+                <input name="search_button" id="search_button" type="button" >
+            </form>
+        </li>
+
+    </ul>
+ </div>
+</head>
+
+<body onload="time()">
+<h1 class="h1">Технологии дополненной реальности в военной технике</h1>
+
+<div align="center">
+    <img class="shadow" src="https://media.istockphoto.com/photos/virtual-jet-design-tests-picture-id578573130" alt="description of the image">
+</div>
+<br>
+<br>
+
+
+
+
+
+<h2 class="h2">Новости дня</h2>
+
+
+<h3 class="h3">Искусственный интеллект разнес в пух и прах человека-пилота в виртуальных воздушных боях</h3>
+<div align="center">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col">
+                Не так давно завершился финальный этап соревнования AlphaDogfight Trial, организованного Управлением
+                перспективных исследовательских программ Пентагона DARPA, в рамках которого на поле виртуальных воздушных боев
+                сходились как специализированные системы искусственного интеллекта, так и опытные люди-пилоты, налетавшие
+                большое количество часов на реальных истребителях. Абсолютным победителем этого соревнования стала система,
+                разработанная компанией Heron Systems, которая в финале разнесла в пух и прах, как человека-пилота, так и
+                подобную систему искусственного интеллекта разработки компании Lockheed Martin.
+            </div>
+            <div class="col">
+                В виртуальных воздушных боях живым и "цифровым" пилотам разрешалось использовать только курсовую авиационную
+                пушку. Помимо этого в виртуальных боях присутствовал целый ряд других ограничений и условностей, таких, как
+                полное отсутствие контроля столкновений виртуальных истребителей. Помимо этого, системам искусственного интеллекта
+                было запрещено использование данных текущих боев для дополнительного самообучения, работа этих систем основывалась
+                только на "опыте", полученном в ходе предварительного обучения.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-6">Вернемся к финалу, в котором против системы Heron Systems выступал опытный пилот истребителя F-16, который пожелал
+                остаться анонимным. Человек принимал участие в бое, используя шлем виртуальной реальности, но системе
+                искусственного интеллекта удалось обыграть человека со счетом 5:0. Справедливости ради стоит отметить, что
+                человек все же успел адаптироваться к стилю боя искусственного интеллекта и в финальном раунде он смог продержаться
+                гораздо дольше, чем в первых раундах.</div>
+
+
+            <div class="col-6"> Наблюдатели особо отметили, что стиль пилотирования систем искусственного интеллекта сильно отличается от стиля
+                пилотирования любого человека. Виртуальные истребители F-16 под управлением "цифровых" пилотов всегда работали на
+                грани своих технических возможностей, они могли маневрировать на больших скоростях на небольшой высоте и выполнять
+                маневры с такими экстремальными перегрузками, которые не может выдержать ни один живой человек.</div>
+        </div>
+        <br>
+        <div >
+            <div class="view view-first">
+                <div class="container">
+                    <img class="col-6, kol" src="https://media.istockphoto.com/photos/virtual-jet-design-tests-picture-id578573130" alt="description of the image">
+                    <div class="mask">
+                        <h2>Title</h2>
+                        <p>Your Text</p>
+                        <a href="https://dailytechinfo.org/" class="info">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row align-items-center">
+
+                <div class="col">
+                    После завершения финального раунда соревнования AlphaDogfight Trial разработчики системы из компании Heron Systems
+                    дали интервью через сервис видеоконференций Zoom. В этом интервью они "разобрали по косточкам" все виртуальные
+                    бои, пояснив некоторые из неожиданных моментов и маневров. Более того, они поделились некоторой информацией
+                    технического плана о своей системе, которая, как оказалось, способна работать на самом младшем и миниатюрном
+                    процессоре из
+
+                    семейства NVIDIA Tegra. Однако, для использования такой системы в реальном мире потребуется
+                    подключение к ней одного или нескольких специализированных процессоров, которые будут выполнять задачу
+                    распознавания объектов на изображениях и в данных, получаемых с радаров в режиме реального времени.
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <br>
+
+    <br>
+    <br>
+</div>
+<div style="margin-left: 190px">
+    <b><a href="Регистрация.html">Регистрация</a></b>
+</div>
+<br>
+<div class="container">
+    <div class="eye-outer">
+        <div class="eye-inner">
+            <div class="inner-circle"></div>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<div class="div">
+    <div class="wrap"><div class="seven">
+        <kbd>
+            <button type="button" onClick="onClick()">Click me</button>
+
+            Clicks: <a id="clicks">0</a> </kbd>
+    </div>
+    </div>
+</div>
+<br>
+<footer class="py-3">
+    <div class="copy-bottom-txt text-center py-3">
+        <p>
+            © 2021 News | Все права защищены
+        </p>
+    </div>
+    <div class="social-icons mt-lg-3 mt-2 text-center">
+        <ul>
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+            <li><a href="#"><span class="fa fa-rss"></span></a></li>
+        </ul>
+    </div>
+</footer>
+<script src="https://use.fontawesome.com/df966d76e1.js"></script>
+</body>
+</html>
